@@ -1,0 +1,187 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* End of reset */
+*{
+box-sizing: border-box;
+/* border:5px solid black; */
+max-width: 100%;
+
+
+}
+/* nav bar */
+nav{
+    padding:2% 0;
+    
+    
+}
+
+/* General styles */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market',monospace;
+    font-size: 6rem;
+}
+
+
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+}
+.nav-plan{
+    background-color: #FF764E;
+    margin-left:10%;
+}
+.nav-learn{
+    background-color: #5ED3EB;
+    margin:0 24%;
+}
+.nav-involved{
+    background-color: #FFCD69;
+    margin-right:10%;
+}
+
+/* Header and round img*/
+.header{
+    position: relative;
+}
+.txt{
+    position:absolute;
+    bottom: 45%;
+    
+}
+.image, .txt{
+    display: inline-block;
+
+}
+.image{
+    width:40%;
+}
+.txt{
+    width: 45%;
+}
+#description-p{
+
+    
+    width:45%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.image img{
+    border-radius: 50%;
+    width:70%;
+    margin-left: 9%;
+}
+.txt div{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+/* img/icons */
+#fireplace-img{
+    padding: 2.5%;
+    width: 30%;
+}
+#truck-img{
+    padding: 2.5%;
+    width: 30%;
+}
+
+.bg-img{
+    background-image:url("assets/footer_img.jpg");
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-top:2.5%;
+}
+/* Section */
+.fireplace-section{
+    text-align: center;
+    /* padding:0% 2.5% ; */
+    margin: auto;
+    width:35%;
+    
+}
+.truck-section{
+    text-align: center;
+    /* padding:0% 2.5% ; */
+    width:35%;
+    margin: auto;
+
+}
+
+/* Body and footer */
+.first-paragraph{
+    background: #DDB9A3  ;
+    color: #F9E7DC;
+    padding: 1%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    margin-top:2.5%;
+    text-align: center;
+    
+}
+
+.footer{
+    background: #F9E7DC ;
+}
+
